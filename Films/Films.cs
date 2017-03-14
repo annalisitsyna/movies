@@ -33,9 +33,10 @@ namespace Films
         }
 
 
-        public Films(string name, string description) //не забыть про рейтинг
+        public Films(string name, int rating, string description) 
         {
             _name = name;
+            _rating = rating;
             _description = description;
         }
     }
