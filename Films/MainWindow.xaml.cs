@@ -23,6 +23,7 @@ namespace Films
         public MainWindow()
         {
             InitializeComponent();
+            //проверяем работает ли гидхаб
         }
     }
 }
