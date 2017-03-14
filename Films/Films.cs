@@ -6,14 +6,38 @@ using System.Threading.Tasks;
 
 namespace Films
 {
-    class Films
+    public class Films
     {
-        public string Name { get; set; }
+        private string _name;
 
-        public int Rating { get; set; }
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
 
-        public string Description { get; set; }
 
+        private int _rating;
+
+        public int Rating
+        {
+            get { return _rating; }
+            set { _rating = value; }
+        }
+        private string _description;
+
+        public string Description
+        {
+            get { return _description; }
+            set { _description = value; }
+        }
+
+
+        public Films(string name, string description) //не забыть про рейтинг
+        {
+            _name = name;
+            _description = description;
+        }
     }
 
 
