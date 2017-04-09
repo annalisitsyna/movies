@@ -20,10 +20,43 @@ namespace Films
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Список для хранения всех сущностей цен
+        /// </summary>
+        private List<Films> prices = new List<Films>();
+
+
+        /// <summary>
+        /// Конструктор окна
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
-            //проверяем работает ли гидхаб
+
+            //Задание стартовых параметров окна
+            Combo.SelectedIndex = 0;
+
+        }
+
+        private void buttonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+
+                prices.Add(new Films(double.Parse(textBox.Text), double.Parse(textBox2.Text), double.Parse(textBox1.Text)));
+
+            }
+            catch (FormatException exception)
+            {
+                MessageBox.Show("Перепроверьте правильность введённых данных", "Error!", MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+            }
+            RefreshListBox(); //обновление ЛистБокса
+        }
+
+        private void RefreshListBox()
+        {
+            throw new NotImplementedException();
         }
     }
 }
