@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Films"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="1852.084" Width="4530.556">
+    <Grid HorizontalAlignment="Left" Height="1765" Margin="7,7,-2,0" VerticalAlignment="Top" Width="4518">
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="1326" Margin="2908,254,0,0" VerticalAlignment="Top" Width="1340"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="339" Margin="248,261,0,0" VerticalAlignment="Top" Width="1636"  Click="buttonAdd_Click">Добавить</Button>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Height="353" Margin="291,745,0,0" VerticalAlignment="Top" Width="1608" Click="buttonRemove_Click">Удалить</Button>
     </Grid>
 </Window>
