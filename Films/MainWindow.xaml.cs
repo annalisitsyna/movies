@@ -54,9 +54,6 @@ namespace Films
             RefreshListBox(); //обновление ЛистБокса
         }
 
-        private void RefreshListBox()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

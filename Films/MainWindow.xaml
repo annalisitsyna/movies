@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1852.084" Width="4530.556">
     <Grid HorizontalAlignment="Left" Height="1759" Margin="7,7,0,0" VerticalAlignment="Top" Width="4499">
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="1326" Margin="3155,453,0,-20" VerticalAlignment="Top" Width="1340" IsSynchronizedWithCurrentItem="True" Background="#FFF53131"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="1326" Margin="2623,-3,0,0" VerticalAlignment="Top" Width="1340" IsSynchronizedWithCurrentItem="True" Background="#FFF53131" Foreground="#FFFBFBFB"/>
         <Button x:Name="button"   HorizontalAlignment="Left" Height="207" Margin="1692,1467,0,0" VerticalAlignment="Top" Width="629"  Click="buttonAdd_Click" FontFamily="{DynamicResource {x:Static SystemFonts.IconFontFamilyKey}}" Background="#FFFFCCCC" Cursor="" FontWeight="Bold" Content="Добавить" FontSize="72">
             <Button.OpacityMask>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -19,7 +19,7 @@
         <Button x:Name="button1"   HorizontalAlignment="Left" Height="211" Margin="2428,1476,0,0" VerticalAlignment="Top" Width="667" Click="buttonRemove_Click" Background="#FFFBC9C9" Content="Стереть" FontSize="72" FontWeight="Bold"/>
         <Label x:Name="label" Content="Название фильма:" HorizontalAlignment="Left" Margin="103,118,0,0" VerticalAlignment="Top" FontSize="100" Height="258" Width="1004"/>
         <Label x:Name="label1" Content="Рейтинг от 0 до 10:" HorizontalAlignment="Left" Height="181" Margin="65,630,0,0" VerticalAlignment="Top" Width="1016" FontSize="100"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="133" Margin="1138,146,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="713" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" FontSize="72" Foreground="{DynamicResource {x:Static SystemColors.ScrollBarBrushKey}}"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="133" Margin="1280,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="713" BorderBrush="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" FontSize="72" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="180" Margin="1309,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="827" OpacityMask="{DynamicResource {x:Static SystemColors.InfoTextBrushKey}}" FontSize="72"/>
         <Label x:Name="label2" Content="Описание фильма:" HorizontalAlignment="Left" Margin="103,327,0,0" VerticalAlignment="Top" Height="244" Width="930" FontSize="100"/>
 
